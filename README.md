@@ -19,7 +19,7 @@ fit = 0.5 × ATS match + 0.3 × track priority + 0.2 × city priority
 | Signal | How it's computed |
 |---|---|
 | **ATS match** | Keywords are pulled from the posting using a product-role lexicon (multi-word skills like *go-to-market*, *a/b testing*, *RAG* are matched as phrases, synonyms like *LLM/LLMs* count once) plus terms the posting repeats. Match = share of those keywords your resume evidences |
-| **Track priority** | Each posting is classified into one of **seven career tracks** by reading the title and description. You set how much you want each track (0–100) |
+| **Track priority** | Each posting is classified into one of **seven career tracks** by reading the title and description. You set how much you want each track (0 to 100) |
 | **City priority** | You rank cities, most wanted first. "Remote" is a city. Score falls off linearly down your list; unlisted cities score 0 |
 
 ### The seven tracks
